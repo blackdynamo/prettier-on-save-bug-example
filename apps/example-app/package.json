@@ -1,0 +1,14 @@
+{
+  "name": "@acme/example-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "prettier": "@acme/prettier",
+  "devDependencies": {
+    "@acme/prettier": "workspace:*"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
